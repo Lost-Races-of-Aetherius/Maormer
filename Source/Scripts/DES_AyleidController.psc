@@ -1,10 +1,5 @@
 Scriptname DES_AyleidController extends Quest  
 
-GenericRaceController Property raceController Auto 
-
-Formlist Property DES_HeadPartsAyleid Auto
-Formlist Property DES_HeadPartsAyleidVampire Auto
-
 Race Property DES_WildElfRace auto
 Race Property DES_WildElfRaceVampire auto
 
@@ -21,11 +16,6 @@ Event OnInit ()
 	;debug.messagebox("no skse")
     RegisterForSingleUpdate(1.0)
   endIf
-
-	raceController.  NewHighElf = DES_HeadPartsAyleid
-	raceController.  NewHighElfVampire = DES_HeadPartsAyleidVampire
-
-	raceController.  proxyRaces () 
 
 	FormList ExhaustionResistRacesMajor = Game.GetFormFromFile(0x000008A6, "ccQDRSSE001-SurvivalMode.esl") As FormList
 

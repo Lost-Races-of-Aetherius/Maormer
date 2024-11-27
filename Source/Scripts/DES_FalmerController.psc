@@ -1,10 +1,5 @@
 Scriptname DES_FalmerController extends Quest  
 
-GenericRaceController Property raceController Auto 
-
-Formlist Property HeadPartsHighElfSnow Auto
-Formlist Property DES_HeadPartsSnowElfVampire Auto
-
 Race Property SnowElfRace auto
 Race Property DES_SnowElfRaceVampire auto
 
@@ -21,11 +16,6 @@ Event OnInit ()
 	;debug.messagebox("no skse")
     RegisterForSingleUpdate(1.0)
   endIf
-
-	raceController.  NewHighElf = HeadPartsHighElfSnow
-	raceController.  NewHighElfVampire = DES_HeadPartsSnowElfVampire
-
-	raceController.  proxyRaces () 
 
 	FormList ExhaustionResistRacesMajor = Game.GetFormFromFile(0x000008A6, "ccQDRSSE001-SurvivalMode.esl") As FormList
 

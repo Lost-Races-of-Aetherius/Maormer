@@ -1,0 +1,85 @@
+{
+    "$schema": "https://raw.githubusercontent.com/shuc1/race-compatibility-skse/main/res/schema/schema",
+    "RCS": [
+        {
+            "name": "Ayleid",
+            "race": {
+                "form": "AyleidRace.esp|0x820",
+                "proxies": [
+                    "HighElfRace"
+                ]
+            },
+            "vampireRace": {
+                "form": "AyleidRace.esp|0x821",
+                "proxies": [
+                    "HighElfRaceVampire"
+                ]
+            },
+            "headPart": "HighElf"
+        },
+        {
+            "name": "Dwarf",
+            "race": {
+                "form": "DwarfRace.esp|0x949",
+                "proxies": [
+                    "WoodElfRace"
+                ]
+            },
+            "vampireRace": {
+                "form": "DwarfRace.esp|0x950",
+                "proxies": [
+                    "WoodElfRaceVampire"
+                ]
+            },
+            "headPart": "WoodElf"
+        },
+        {
+            "name": "Sea Elf",
+            "race": {
+                "form": "SeaElfRace.esp|0x94D",
+                "proxies": [
+                    "WoodElfRace"
+                ]
+            },
+            "vampireRace": {
+                "form": "SeaElfRace.esp|0x94E",
+                "proxies": [
+                    "WoodElfRaceVampire"
+                ]
+            },
+            "headPart": "WoodElf"
+        },
+        {
+            "name": "Snow Elf",
+            "race": {
+                "form": "SnowElfRace.esp|0x84F",
+                "proxies": [
+                    "HighElfRace"
+                ]
+            },
+            "vampireRace": {
+                "form": "SnowElfRace.esp|0x850",
+                "proxies": [
+                    "HighElfRaceVampire"
+                ]
+            },
+            "headPart": "HighElf"
+        },
+        {
+            "name": "Tsaesci",
+            "race": {
+                "form": "TsaesciRace.esp|0x851",
+                "proxies": [
+                    "ImperialRace"
+                ]
+            },
+            "vampireRace": {
+                "form": "TsaesciRace.esp|0x852",
+                "proxies": [
+                    "ImperialRaceVampire"
+                ]
+            },
+            "headPart": "Imperial"
+        }
+    ]
+}

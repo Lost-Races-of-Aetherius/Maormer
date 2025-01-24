@@ -52,13 +52,13 @@
         {
             "name": "Snow Elf",
             "race": {
-                "form": "SnowElfRace.esp|0x84F",
+                "form": "Dawnguard.esm|0x377D",
                 "proxies": [
                     "HighElfRace"
                 ]
             },
             "vampireRace": {
-                "form": "SnowElfRace.esp|0x850",
+                "form": "SnowElfRace.esp|0x84F",
                 "proxies": [
                     "HighElfRaceVampire"
                 ]
